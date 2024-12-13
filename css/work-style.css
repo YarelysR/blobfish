@@ -1,0 +1,108 @@
+
+html {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1rem;
+    font-style: bold;
+    color: black;
+   
+  }
+
+* ,
+* ::before ,
+* ::after {
+    box-sizing: inherit;
+}
+
+nav a {
+    color:antiquewhite;
+}
+nav {
+    background-color:darkolivegreen;
+    margin-bottom: 50px;
+    width: 1100px;
+    height: 70px;
+    padding: 10px;
+    margin-left: 25px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    list-style: none;
+
+}
+
+nav a {
+    text-decoration: underline;
+}
+
+
+nav a:hover,
+nav a:active {
+    background-color:rgb(4, 76, 4);
+    text-decoration: wavy;
+    color: rgb(125, 188, 125);
+    padding: 10px;
+}
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 6px;
+    grid-row-gap: 6px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 6;
+        background-color: darkkhaki; 
+        padding: .50rem;
+        margin: auto;
+        border-radius: 20%;
+    }
+    .div2 { grid-area: 1 / 9 / 2 / 14;
+        background-color: darkkhaki; 
+        padding: .50rem;
+        margin: auto;
+        border-radius: 20%}
+    .div3 { grid-area: 2 / 1 / 4 / 3;
+         }
+    .div4 { grid-area: 2 / 3 / 4 / 6;
+        }
+    .div5 { grid-area: 4 / 1 / 6 / 3; 
+        }
+    .div6 { grid-area: 4 / 3 / 6 / 6; 
+        }
+    .div7 { grid-area: 6 / 1 / 7 / 3; 
+       }
+    .div8 { grid-area: 6 / 3 / 7 / 6;
+         }
+    .div9 { grid-area: 2 / 9 / 4 / 12; 
+       }
+    .div10 { grid-area: 2 / 12 / 4 / 14;
+         }
+    .div11 { grid-area: 4 / 9 / 6 / 12; 
+        }
+    .div12 { grid-area: 4 / 12 / 6 / 14; 
+       }
+    .div13 { grid-area: 6 / 9 / 7 / 12;
+         }
+    .div14 { grid-area: 6 / 12 / 7 / 14;
+        }
+    .div15 { grid-area: 1 / 6 / 7 / 9;
+        display:flex; 
+        justify-content: center;
+        align-items: center;
+        flex-direction: column,;
+        color: rgb(12, 55, 29);
+        background-color: darkkhaki;
+        border-radius: 10% ;}
+
+
+        .img {
+            object-fit: cover;
+            width: 100%
+          }
+
