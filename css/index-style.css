@@ -1,0 +1,113 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1rem;
+    font-style: bold;
+   
+  }
+
+* ,
+* ::before ,
+* ::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-image: url(/img/iStock-856315270.jpg);
+    background-color:rgb(214, 192, 179); 
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+
+    
+}
+
+#wrapper {
+    align-items: center;
+    width: 63%;
+    background-color:rgb(21, 48, 21);                                  
+    color: rgb(240, 244, 240); 
+    padding: 0 rem; opacity: 85%;
+    border-radius: 1rem;
+    margin: 200px;
+    opacity: 80%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    text-decoration: underline;
+   
+}
+
+h3,
+h4,
+h5 {
+    margin-left: 2.5rem;
+}
+
+
+nav a {
+    color: black;
+
+}
+
+nav a :hover {
+    color: antiquewhite;
+    
+}
+    
+
+nav {
+    text-align: center;
+    margin-bottom: 3.5rem;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline; 
+}
+
+nav a {
+    padding: 12px 16px;     
+    background-color: rgba(255, 255, 255, 0.5); 
+    border-radius: 8px;
+    margin-right: 8px;
+    
+
+}
+
+
+
+#wonts  ul {
+    list-style-type: none;
+}
+
+#payments ol {
+    list-style-type: none;
+}
+
+
+
+ footer {
+    color: black;
+ }
+footer {
+    display: inline;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 2rem;
+    border-radius: 8px;
+}
+
+#payments,
+#wonts,
+#about {
+    margin-right: 2rem;
+}
