@@ -3,9 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Commission Booking</title>
+    <link rel="stylesheet" href="css/commision-style.css">
 </head>
 <body>
+<div id="wrapper">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="commission.html">Commissions</a></li>
+            
+        </ul>
+    </nav>
+
+
+    <header>
+        <h1>Commission Request</h1>
+        <h2>My Commission Policies</h2>
+    </header>
+
+    <section class="policies">
+        <ul>
+            <li>Please be clear and read my wont's and will's before contacting</li>
+            <li>20% deposit required after prices are settled</li>
+            <li>Please email any references to the provided email </li>
+            <li>Be as detailed as possible</li>
+            <li>Please Remember that the listed prices may not be final and may be different to the final price after discussion</li>
+            <li>Phone and email required to keep constant contact</li>
+        </ul>
+    </section>
+    <section class="booking">
+        <form method="post" name="Commissions" data-netlify="true">
+
+            <div>
+                <label for="firstName">First Name</label>
+                <input type="text" name="firstName" id="firstName" placeholder="first name
+                required">
+            </div>
+            <div>
+                <label for="lastName">Last Name</label>
+                <input type="text" name="lastName" id="lastName" placeholder="last name
+                required">
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="email required" />
+            </div>
+
+            
+            <div>
+                <label for="phone">Phone:</label>
+                 <input type="tel" id="phone" name="phone" placeholder="phone number required"
+                 required />
+            
+            </div>
+
+            <div>
+                <label for="list">Details for commission</label>
+                <textarea></textarea>
+                
+            </div>
+            <br>
+
+            <div>
+                <label for="terms">I agree to all the terms listes above </label>
+                <input type="radio" name="terms" id="terms">
+            </div>
+
+            
+            <div>
+                <input type="submit" value="Submit"><br>
+                <input type="submit" value="Return">
+            </div>
+            
+
+            <footer>
+                <small>
+                    Created by Yarelys Ramos <br>
+                    Created on 12/12/24 <br>
+                    &copy; 2018 Irina Mishina
+                </small>
+            </footer>    
+        </div>    
+            
+
+
+
+
     
 </body>
 </html>
